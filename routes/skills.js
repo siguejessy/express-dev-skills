@@ -5,7 +5,7 @@ const skillsCtrl = require("../controllers/skills");
 router.get("/", skillsCtrl.index);
 router.get("/new", skillsCtrl.new);
 router.get("/:id", skillsCtrl.show);
-router.get("/:id", skillsCtrl.edit);
+router.get("/:id/edit", skillsCtrl.edit);
 
 //All actual paths start with "/skills"
 router.post("/", skillsCtrl.create);
