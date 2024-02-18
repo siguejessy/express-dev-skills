@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Skills</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Skills</h1>
     <ul>
-        <% skills.forEach(function(s) { %>
-            <li><a href="/skills/<%= s.id %>"></a></li>
-        <% }); %>
+      <% skills.forEach(function(s) { %>
+      <li><a href="/skills/<%= s.id %>"></a></li>
+      <% }); %>
     </ul>
-</body>
+  </body>
 </html>
