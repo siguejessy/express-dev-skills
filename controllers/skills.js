@@ -20,8 +20,8 @@ function update(req, res) {
 
 function edit(req, res) {
   const skill = Skill.getOne(req.params.id);
-  res.render("todos/edit", {
-    title: "Edit To-Do",
+  res.render("skills/edit", {
+    title: "Edit skill",
     skill,
   });
 }
@@ -53,5 +53,6 @@ function show(req, res) {
 function index(req, res) {
   res.render("skills/index", {
     skills: Skill.getAll(),
+    title: "All Skills 🌱",
   });
 }
