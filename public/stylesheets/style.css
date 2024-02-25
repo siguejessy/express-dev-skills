@@ -1,25 +1,23 @@
-/* * {
-  color-scheme: dark;
-} */
+* {
+color-scheme: dark;
+} 
 
 body {
-  padding: 50px;
+  padding: 80px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00b7ff;
+  color: #00B7FF;
 }
-
 .delete-form {
-  display: inline-block;
+  display: inline;
   margin-right: 10px;
 }
-
+	
 .delete-form button {
-  color: red;
 }
-
+	
 li {
   list-style: none;
 }
